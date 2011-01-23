@@ -48,7 +48,6 @@ Dokumentacji w formacie ri dla %{pkgname}.
 %build
 rdoc --ri --op ri lib
 rdoc --op rdoc lib
-rm ri/Rack/cdesc-Rack.yaml
 rm ri/created.rid
 
 %install
